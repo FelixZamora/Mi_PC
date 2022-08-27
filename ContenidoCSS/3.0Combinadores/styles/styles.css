@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+4. Selector por atributo:
+*/
+
+[class]{
+    background-color: rgb(14, 204, 214);
+}
+
+a[href]{ /*Se aplicara el estilo a los links*/
+    text-align: center;
+    margin-left: 2%;
+    color: sandybrown;
+}
+/*Utilizando sufijos*/
+a[href$=".com"]{
+    text-align: right;
+    margin-top: 10px;
+    color: aquamarine;
+}
+/*Utilizando prefijos*/
+article[class^="pre"]{
+    margin-top: 25px;
+}
+/*Conteniendo la palabra*/
+p[class*="rra"]{
+    background-color: aquamarine;
+}
+
+/*Modificar el hermano
+    Elemento hermano seleccionado, elemento hermano siquiente que se va aferctar
+
+    h1,.articulo1,#segundoParrafo{
+    text-align: center;
+}
+*/
+
+.subtitulo + article{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(100, 255, 136);
+}
+
+.hermanos ~ p{
+    padding: 10px;
+    border: 4px double black;
+    text-align: center;
+
+}
+
+.content .subtitulo{
+    background-color: brown;
+}
+
+/*
+    h1,.articulo1,#segundoParrafo{
+    text-align: center;
+}
+
+*/
+
+/*Selectores multiples*/
+
+.parrafo.aside{
+    font-size: 25px;
+    margin: 3%;
+    padding: 3px;
+}
+
+/*Selector hijos directos*/
+
+.ubicacion>.press{
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+

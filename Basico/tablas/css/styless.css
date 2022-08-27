@@ -1,0 +1,26 @@
+table{
+    border-collapse:collapse;
+}
+thead tr, th{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #BBFF94;
+}
+tbody td{
+    border: 1px double rgb(0, 0, 0);
+    text-align: center;
+}
+tbody th{
+    border: 1px double rgb(0, 0, 0);
+    text-align: center;
+    background-color: #bbffff;
+}
+tfoot td{
+    border: 2px double rgb(0, 0, 0);
+    text-align: center;
+}
+img{
+    border: 1px solid  rgb(0, 0, 0);
+    image-rendering: pixelated;
+    width: 20%;
+    height: 50%;
+}
