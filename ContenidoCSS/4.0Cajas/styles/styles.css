@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: thistle;
+}
+.box1{
+    margin: 0 auto; /*El margin auto funciona solo cuando esta definido el width*/
+    width: 400px;
+    height: auto;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    box-sizing: border-box; /*Acomoda el tama;o de la caja segun el angho y alto de la caja*/
+}
+.box2{
+    margin: 0 auto;
+    background-color: wheat;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+}
+.box3{
+    margin: 0 auto;
+    background-color: dimgrey;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+}
+.footer{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+.enlaceFooter{
+    /*El valor block tartara como elementos de bloque a los elemntos 
+    en linea y entonces el inline-block los coloca uno al lado del otro pero sin afectar el main */
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: violet;
+    border: 2px solid black;
+    text-align: center;
+}
+.box3{
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    border: 2px double blue;
+}
+/*Especifidad*/
+h1{
+    color: blue;
+}
+#h1{
+    color: yellow;
+}
+.h1{
+    color: chocolate;
+}
+/*Herencia*/
+.section{
+    background-color: yellowgreen;
+    font-style: oblique;
+    border-radius: 2%;
+    padding: 13px;
+    text-align: center;
+}
