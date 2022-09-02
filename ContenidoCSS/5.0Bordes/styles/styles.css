@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin: 0 auto;
+    background-color: rgb(67, 205, 255);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    /*Los bordes trabajan con 3 propiedades o atributos*/
+    border-color: rgba(0, 0, 255, 0.387);
+    border-style: ridge;
+    border-width: 15px;
+
+    /*  Vertical - Horizontal*/
+    border-style: ridge dotted;
+
+    /*TOP / HORIZONTAL / BOTTOM*/
+    border-style: ridge dotted double;
+
+    /*SIMPLIFICAR*/
+    border: 10px solid red;
+
+    /*Esquinas curvas*/
+    border-radius: 8% 2% 4%;
+
+    /*Sombra marco*/
+    box-shadow: 2px 3px 5px 10px royalblue;
+
+    margin-top: 5%;
+}
+
+.card{
+    background-color: aquamarine;
+    color: black;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 aqua;
+
+}
+
+.mer{
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 15px auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text{
+    font-size: small;
+    font-style: oblique;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    background-color: bisque;
+    margin: 5% 31% 0 31%;
+    box-shadow: 0 0 15px 0 #594731;
+    padding: 10px;
+
+}

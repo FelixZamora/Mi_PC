@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    color: mediumturquoise;
+    color: hsla(0, 0%, 0%, 0.823);
+    background: hsl(300, 76%, 72%);
+    padding: 4px;
+}
+.art1{
+    background: rgba(206, 60, 60, 0.155);
+    color: rgb(0, 0, 0);
+}
+.art2{
+    /*hsl*/
+    color: hsl(208, 81%, 60%);
+    background: hsla(120, 72%, 52%, 0.746);
+}
+.art3{
+    color: #ae434371;
+    background-color: #50fff971;
+}
