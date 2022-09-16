@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Registration</title>
 </head>
 <body>
 
@@ -15,54 +15,49 @@
     <main>
 
         <img src="../assets/img/Register.png" alt="Register">
-        <h1>Registro</h1>
+        <h1>Registration</h1>
 
         <form action="" method="">
 
-            <label for="name">Primer nombre:</label>
+            <label for="name">First Name:</label>
             <input type="text" id="name" name="name" placeholder="Katty" minlenght="2" maxlength="50" tittle="Se admiten solo letras" autocomplete="off" required>
 
             <br><br>
 
-            <label for="segundo name">Segundo nombre:</label>
-            <input type="text" id="segundo name" name="name" value="" placeholder="Olga" minlenght="3" maxlength="50" pattern="[a-z A-Z] {3,20}" tittle="Se admiten solo letras" autocomplete="off" required>
+            <label for="apellidos">Last Name:</label>
+            <input type="text" id="apellidos" name="name" value="" placeholder="Perez" minlenght="3" maxlength="50" pattern="[a-z A-Z] {3,20}" tittle="Se admiten solo letras" autocomplete="off" required>
 
             <br><br>
 
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="name" value="" placeholder="Perez Pinoza" minlenght="3" maxlength="50" pattern="[a-z A-Z] {3,20}" tittle="Se admiten solo letras" autocomplete="off" required>
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="Email@address.com"> 
 
             <br><br>
 
-            <label for="email"> Correo electronico:</label>
-            <input type="email" id="email" placeholder="email@address.com"> 
+            <label for="phone">Phone:</label> 
+            <input type="tel" placeholder="Phone number" id="phone">
 
             <br><br>
 
-            <label for="phone">Telefono:</label> 
-            <input type="tel" placeholder="Ej. 312 5547856" id="phone">
-
-            <br><br>
-
-            <label for="pss">Contraseña:</label>
-            <input type="password" id="pss" placeholder="Contraseña">
+            <label for="pss">Password:</label>
+            <input type="password" id="pss" placeholder="Password">
             
             <br><br>
 
-            <label for="pss">Confirmar contraseña:</label>
-            <input type="password" id="pss" placeholder="Contraseña">
+            <label for="pss">Confirm Password:</label>
+            <input type="password" id="pss" placeholder="Password">
             
             <br><br>
 
-            <label for="condiciones">¿Acepta terminos y condiciones?</label>
+            <label for="condiciones">Do you accept terms and conditions?</label>
             <input type="checkbox" id="condiciones">
 
-            <a href="">Leer</a>
+            <a href="">Read</a>
             
             <br><br>
 
             <div>
-                <button type="submit">Enviar</button>
+                <button type="submit">Send</button>
             </div>
             
         </form>
