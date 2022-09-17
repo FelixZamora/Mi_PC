@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,28 +14,25 @@
 
     <main>
 
-        <img src="../assets/img/Register.png" alt="Register">
-        <h1>Registration</h1>
+        <div>
+            <img src="../assets/img/Register.png" alt="Register">
+            <h1>Registration</h1>
+        </div>
 
-        <form action="" method="">
+        <form action="" method="" id="form">
 
-            <label for="name">First Name:</label>
-            <input type="text" id="name" name="name" placeholder="Katty" minlenght="2" maxlength="50" tittle="Se admiten solo letras" autocomplete="off" required>
-
-            <br><br>
-
-            <label for="apellidos">Last Name:</label>
-            <input type="text" id="apellidos" name="name" value="" placeholder="Perez" minlenght="3" maxlength="50" pattern="[a-z A-Z] {3,20}" tittle="Se admiten solo letras" autocomplete="off" required>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="name" placeholder="Katty" minlenght="2" maxlength="50" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" tittle="Se admiten solo letras" autocomplete="off" required>
 
             <br><br>
 
-            <label for="email"> Email:</label>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="name" placeholder="Perez" minlenght="3" maxlength="50" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" tittle="Se admiten solo letras" autocomplete="off" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Email@address.com"> 
-
-            <br><br>
-
-            <label for="phone">Phone:</label> 
-            <input type="tel" placeholder="Phone number" id="phone">
 
             <br><br>
 
@@ -44,29 +41,25 @@
             
             <br><br>
 
-            <label for="pss">Confirm Password:</label>
-            <input type="password" id="pss" placeholder="Password">
-            
-            <br><br>
-
-            <label for="condiciones">Do you accept terms and conditions?</label>
-            <input type="checkbox" id="condiciones">
+            <label for="checkPolitica">Do you accept terms and conditions?</label>
+            <input type="checkbox" id="checkPolitica">
 
             <a href="">Read</a>
             
             <br><br>
 
             <div>
-                <button type="submit">Send</button>
+                <button type="submit" id="enviar">Send</button>
             </div>
             
         </form>
+
     </main>
 
     <footer>
 
     </footer>
 
-
+    <script src="../scripts/verificarRegistro.js"></script>
 </body>
 </html>
