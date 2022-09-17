@@ -39,7 +39,7 @@
     height: 300px;
 }
 .enlaceFooter{
-    /*El valor block tartara como elementos de bloque a los elemntos 
+    /*El valor block tratara como elementos de bloque a los elemntos 
     en linea y entonces el inline-block los coloca uno al lado del otro pero sin afectar el main */
     display: inline-block;
     margin: 0 auto;
