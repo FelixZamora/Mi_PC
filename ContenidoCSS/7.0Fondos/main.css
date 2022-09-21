@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.art1{
+    padding: 35px;
+    /*Fondo con una imagen*/
+    background-image: url(./img/cody-lannom-4xNt7qH96t4-unsplash.jpg);
+    background-position: center;
+    color: #ffffffb0;
+}
+.art2{
+    width: 600px;
+    height: auto;
+    background-image: url(./img/road-6221011_1920.jpg);
+    /*background-size: 300px;*/
+    background-size: cover; /*Tama;o real*/
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    padding: 10px;
+}
+.art3{
+    background-image: url(./img/alexander-shatov-71Qk8ODIBko-unsplash.jpg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin: 10% auto;
+    border: solid rgb(254, 0, 0);
+    /*
+        posici[on en base al plano cartesiano x, y, primer parametro x, segundo parametro y
+    */
+    background-position: -1200px -800px;
+
+}
+
+.cabecera{
+    background-image: url(./img/cody-lannom-4xNt7qH96t4-unsplash.jpg);
+}
+
+ul > li{
+    list-style: none;
+    display: inline-block;
+}
